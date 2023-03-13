@@ -7,7 +7,7 @@ price_promo: "190.000"
 date: 2023-02-07 08:00:00 +07:00
 tags: ["promo super"]
 thumbnail: /products/Promo-Super-Orderio-id.png
-products: ["/testingaja/products/Promo-Super-Orderio-id.png","/testingaja/products/buka-toko-online-Orderio-id-1.png","/testingaja/products/Konten-Orderio-id-1.png","/testingaja/products/Konten-Orderio-id-2.png","/testingaja/products/Konten-Orderio-id-3.png","/testingaja/products/Konten-Orderio-id-4.png"]
+products: ["/products/Promo-Super-Orderio-id.png","/products/buka-toko-online-Orderio-id-1.png","/products/Konten-Orderio-id-1.png","/products/Konten-Orderio-id-2.png","/products/Konten-Orderio-id-3.png","/products/Konten-Orderio-id-4.png"]
 ---
 
 ## Paket Promo Super

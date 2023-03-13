@@ -1,4 +1,4 @@
-Sitemap: https://orderio.id/sitemap.xml
+Sitemap: https://orderio.id/testingaja/sitemap.xml
 User-agent: *
 
 Allow: /
