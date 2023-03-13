@@ -1,0 +1,143 @@
+/*
+ * Orderio
+ * Designed by Degiam [https://degiam.com]
+ * Copyright (c) 2022
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+$font: 'Poppins', sans-serif;
+
+* {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body {
+	font-family: $font;
+}
+
+.prose hr {
+	margin: 1.5rem 0;
+}
+
+footer {
+	.flex img {
+		transition: all .25s ease;
+		&:not(:hover) {
+			filter: grayscale(1);
+			opacity: .7;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	footer {
+		.max-w-\[500px\] img {
+			width: 180px;
+		}
+	}
+}
+
+#backTop {
+  z-index: 3;
+}
+
+@media (max-width: 767px) {
+ body {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+ }
+}
+
+.locked:before {
+ content: '';
+ background: rgba(0,0,0,.75);
+ position: fixed;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ display: block;
+ z-index: 9999;
+}
+.locked .preload {
+ display: flex;
+}
+.preload {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ padding: 1.5rem;
+ max-height: 100%;
+ overflow: auto;
+ display: none;
+ z-index: 99999;
+}
+.preload .popup {
+ background: white;
+ padding: 1.75rem;
+ border-radius: 1rem;
+ max-width: 550px;
+ margin: auto;
+ text-align: center;
+}
+.preload h2 {
+ font-size: 1.5rem;
+ font-weight: bold;
+ margin: .25rem 0 1rem;
+}
+.preload p {
+ margin-bottom: .75rem;
+}
+.preload p span {
+ color: #059669;
+}
+.preload .button {
+ display: block;
+ width: 100%;
+ text-align: center;
+ border-radius: .5rem;
+ padding: .75rem 1rem;
+ margin-top: 1.5rem;
+ color: #fff;
+ background-color: #10b981;
+}
+.preload .button:hover {
+ background-color: #059669;
+}
+@media (max-width: 767px) {
+ .preload {
+  padding-bottom: 7rem;
+ }
+}
+.pagination {
+    margin: 1.5rem;
+    text-align: center;
+    @media (max-width: 767px) {
+        & {
+            text-align: center;
+        }
+    }
+    a, span {
+        display: inline-block;
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        margin-right: .25rem;
+        margin-bottom: .5rem;
+    }
+    a {
+        color: black;
+        background-color: #eee;
+        &:hover {
+            color: white;
+            background-color: #10b981;
+        }
+    }
+    span {
+        color: white;
+        background-color: #10b981;
+    }
+}
